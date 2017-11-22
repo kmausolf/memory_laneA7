@@ -1,3 +1,4 @@
+/*
 //calls functions on page load
 $(document).ready(function(){
 
@@ -13,12 +14,15 @@ $(document).ready(function(){
     getSetting('movies_setting');
     getSetting('shows_setting');
     */
+    /*
   });
 });
+*/
+/*
 
 //function to get the specified setting of the user
 function getSetting(setting) {
-  
+
   //If the user is logged in, pulls setting from database
   if(currentUser) {
     //Gets promise of user settings data specified by "setting" param
@@ -88,8 +92,9 @@ function togglerandom(string) {
   console.log('test function');
 }
 
+*/
 
-(function() {  
+(function() {
 
   var app = angular.module('settings', []);
   app.controller("ButtonCtrl", function($scope){
@@ -137,4 +142,3 @@ function togglerandom(string) {
 
   });//end Buttons
 })();
-*/
